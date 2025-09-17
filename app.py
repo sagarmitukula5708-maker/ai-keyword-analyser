@@ -16,7 +16,7 @@ if uploaded_file is not None and api_key:
     df = pd.read_csv(uploaded_file)
     st.write("Uploaded Keywords:", df.head())
     
-    openai.api_key = api_key
+    gemini.api_key = AIzaSyBktncfXblCucdOqXI_PEM9WK2CQsktxUo
     
     # Function to analyze a single keyword
     def analyze_keyword(keyword):
